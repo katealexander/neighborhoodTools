@@ -16,7 +16,7 @@ To get python package:
 ```pip install pybedtools```
 
 # Needed inputs
-- A gtf file with the locations of genes (e.g. hg38.ncbiRefSeq.gtf)
+- A gtf file with the locations of genes (e.g. [hg38.ncbiRefSeq.gtf](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ncbiRefSeq.gtf.gz))
 - A chromosome sizes file (e.g. "hg38.chrom.sizes")
 - One or more deseq2 output files, stored in directory "datasets/"
 
