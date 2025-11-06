@@ -30,13 +30,13 @@ To get python package:
 # Running the script
 To run the script for one dataset:
 
-```python3 identifyChangingNeighborhoods.v2.py hg38.chrom.sizes hg38.ncbiRefSeq.gtf datasets/DATASETNAME.tsv 1000000```
+```python3 identifyChangingNeighborhoods.v2.py hg38.chrom.sizes hg38.ncbiRefSeq.gtf datasets/DATASETNAME.tsv 2500000```
 
 The last argument is the bin sizes. This can be just one bin size, as shown for 1Mb size neighborhoods. Or, if desired, it can be multiple, for example: 1000000,5000000
 
 To run the script on all the datasets in the datasets directory:
 
-```for dataset in datasets/*; do python3 identifyChangingNeighborhoods.v2.py hg38.chrom.sizes hg38.ncbiRefSeq.gtf $dataset 1000000; done```
+```for dataset in datasets/*; do python3 identifyChangingNeighborhoods.v2.py hg38.chrom.sizes hg38.ncbiRefSeq.gtf $dataset 2500000; done```
 
 # Considerations
 - You will want to ensure the dataset of interest has enough differential genes to make the analysis interpretable. For example, neighborhoods will likely be more challenging to detect with 50 differential genes versus 2000.
