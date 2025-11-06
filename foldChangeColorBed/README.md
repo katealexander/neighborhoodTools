@@ -11,7 +11,7 @@ A bed file for each dataset in the "datasets" directory will be output into the 
 RStudio with: dplyr and scales
 
 # Needed inputs
-- A gtf file with the locations of genes (e.g. [hg38.ncbiRefSeq.gtf](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/))
+- A gtf file with the locations of genes (e.g. [hg38.ncbiRefSeq.gtf](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ncbiRefSeq.gtf.gz))
 - One or more deseq2 output files, stored in directory "datasets/"
 
 # Running the script
